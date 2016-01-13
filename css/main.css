@@ -1,0 +1,52 @@
+/* -- Global -- */
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: maroon;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: crimson;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+	
+body {
+	background-color:white;
+	margin-top: 20px;
+	margin-left: 10px;
+
+
+
+	
+}
+	
+	b {}
+
+	h1 {}
+	h2 {}
+	h3 {}
+
+#adrian {
+	
+}
+
+#meg{
+	
+}
+
+#robert {
+	
+}
+	

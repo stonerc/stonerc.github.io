@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html lang="zh">
-
+<html>
 <head>
-
-	<title>Stoner's Homepage</title>
-
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+  <title>Stoner's Homepage</title>
+  
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-
+	
 	<meta charset="utf-8">
 	
+	<style>
+    .menu {
+      float:left;
+      width:20%;
+      height: 100vh;
+	  border: 0
+    }
+    .mainContent {
+      float:left;
+      width:80%;
+	  height: 100vh;
+	  border: 0
+
+    }
+    </style>
 </head>
 
-<frameset cols="8%,*">
-<frame src="a.htm" name="1">
-<frame src="b.htm" name="2">
-</frame>
-
+<body>
+  <iframe class="menu" src="a.htm"></iframe>
+  <iframe class="mainContent" src="b.htm"></iframe>
+</body>
 </html>
