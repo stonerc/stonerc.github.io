@@ -1,10 +1,15 @@
 /* -- Global -- */
 
+article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {   
+  display: block;   
+}
+
 a:link {
     color: blue;
     background-color: transparent;
     text-decoration: none;
 }
+
 a:visited {
     color: maroon;
     background-color: transparent;
@@ -23,30 +28,13 @@ a:active {
 
 	
 body {
+    /* font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif; */
 	background-color:white;
-	margin-top: 20px;
-	margin-left: 10px;
-
+	max-width: 800px;
 
 
 	
 }
-	
-	b {}
 
-	h1 {}
-	h2 {}
-	h3 {}
-
-#adrian {
-	
 }
 
-#meg{
-	
-}
-
-#robert {
-	
-}
-	
